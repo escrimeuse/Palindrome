@@ -1,0 +1,44 @@
+body {
+	font-family: 'Quicksand', sans-serif;
+	background-color: #443266;
+} 
+
+.container {
+	margin-left: auto;
+	margin-right: auto;
+	width:50%;
+	text-align:center;
+	background-color:white;
+	border-radius: 5px;
+}
+
+.myButton {
+	font-family: 'Quicksand', sans-serif;
+	border: 1px solid #443266;
+	background: white;
+	border-radius:3px;
+}
+
+.myButton:hover {
+	font-family: 'Quicksand', sans-serif;
+	color:white;
+	border: 1px solid #443266;
+	background: #443266;
+	border-radius:3px;
+}
+
+blockquote {
+	color:grey;
+}
+
+.define {
+	color:grey;
+}
+
+hr {
+	color:#443266;
+}
+
+h1 {
+	padding-top: 15px;
+}

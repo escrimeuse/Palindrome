@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Palindrome Detector</title>
+		<meta charset="utf-8" />
+		<meta name="author" content="Cathryn Griffiths" />
+		<meta name="keywords" content="palindrome,test" />
+		
+		<link href="styles.css" type="text/css" rel="stylesheet" />
+		<link href='http://fonts.googleapis.com/css?family=Quicksand:700' rel='stylesheet' type='text/css'>
+		
+		<script src="palindrome.js" type="text/javascript" ></script>
+		
+	</head>
+	<body>
+		<div class="container">
+			<div>
+				<h1>Palindrome Detector</h1>
+				<hr />
+			</div>
+			<div>
+				<p>This Palindrome Detector can detect whether a word, phrase, or number is a palindrome.</p>
+				
+				<p>A <span class="define">palindrome</span> is word, phrase, or number that reads the same forwards and backwards. Some well-known palindromes include
+				the words <em>kayak</em> and <em>racecar</em>, and the phrase <em>"Madam, I'm Adam"</em>.</p>
+				<hr />
+				<p>To test whether a word, phrase, or number is a palindrome, simply type it in to the box below and click the "Is This a Palindrome" 
+				button.</p>
+				<form>
+					<textarea name="palindrome" id="palindrome" cols="50" rows="10" ></textarea>
+					<p><input type="button" value="Is This a Palindrome?" class="myButton" onclick="palindromeDetector()" /></p>
+				</form>
+				<hr />
+			</div>
+			<div id="results">
+				
+			</div>
+			
+		</div>
+	</body>
+</html>
