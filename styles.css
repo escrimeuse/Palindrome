@@ -1,5 +1,9 @@
+/*  styles.css - stylesheet for Palindrome Detector
+    Author: Cathryn Griffiths - cathryn.griffiths@gmail.com - github.com/escrimeuse/
+    */
+
 body {
-	font-family: 'Quicksand', sans-serif;
+	font-family: Verdana;
 	background-color: #443266;
 } 
 
@@ -13,14 +17,14 @@ body {
 }
 
 .myButton {
-	font-family: 'Quicksand', sans-serif;
+	font-family: Verdana;
 	border: 1px solid #443266;
 	background: white;
 	border-radius:3px;
 }
 
 .myButton:hover {
-	font-family: 'Quicksand', sans-serif;
+	font-family: Verdana;
 	color:white;
 	border: 1px solid #443266;
 	background: #443266;
@@ -36,9 +40,16 @@ blockquote {
 }
 
 hr {
-	color:#443266;
+	background-color: #443266;
+    border: 0px;
+    height: 3px;
 }
 
 h1 {
 	padding-top: 15px;
+}
+
+textarea {
+    font-family:Verdana;
+    border-radius: 3px;
 }
